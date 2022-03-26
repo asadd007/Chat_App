@@ -17,7 +17,7 @@ const ThereMsg=({lastMessage,message})=>{
              />
            ):(
             <div className="message" style={{float:'left',backgroundColor:"#CABCDC",marginLeft:isFirstMessageByUser?'4px':'48px'}}>
-            {message.text}
+            {message.text.slice(3,message.text.length-4)}
         </div>
            )
            }
