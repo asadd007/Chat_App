@@ -1,5 +1,5 @@
 const MyMsg=({message})=>{
-      console.log(message);
+      //console.log(message);
     if(message.attachments>0&& message.attachments.length>0)//checks message is image or video
     {
          return(
